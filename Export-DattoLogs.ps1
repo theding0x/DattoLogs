@@ -116,7 +116,7 @@ function Get-InstalledProduct {
 }
 function Get-DattoLogPath {
     Param(
-    [Parameter(Mandatory=$true,ValueFromPipeline)]
+    [Parameter(Mandatory=$true,ValueFromPipeline=$true)]
     $Product
     )
     
